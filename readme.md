@@ -19,6 +19,10 @@ Ody is an Android application designed to perform object detection on images cap
 **Significance:** The architecture pattern you choose for your app will influence its maintainability, testability, and the ease with which you can scale or modify features in the future.
 **Considerations:** MVVM promotes a separation of concerns, making it easier to understand the code and write tests. It pairs well with Android's LiveData and Data Binding, which can result in more concise and reactive UI code. However, as with any pattern, it's crucial to avoid common pitfalls, such as bloated ViewModels or ignoring the importance of Dependency Injection.
 
+4.**Next steps to make this repo better:**
+   a. Migrate from programmatic way of navigation to navigation graph.
+   b. Write unit tests and UI tests.
+   c. Make a pipeline to generate a build.
 
 ## Features 🌟
 
