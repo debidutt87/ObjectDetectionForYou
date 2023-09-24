@@ -1,0 +1,1 @@
+https://tfhub.dev/tensorflow/lite-model/efficientdet/lite0/detection/metadata/1
