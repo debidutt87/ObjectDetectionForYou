@@ -3,6 +3,23 @@
 
 Ody is an Android application designed to perform object detection on images captured by the user. With the integration of the `efficientdet_lite2_.tflite` model, Ody identifies and highlights objects within images, streamlining the image analysis process for users.
 
+## Thought Process 
+1. **Navigation Blue Print:**
+
+**Significance:** The navigation blueprint, often referred to as the app's navigation graph or flow, dictates how users move between different parts of your application. A well-defined navigation ensures that the user experience is intuitive and consistent.
+**Considerations:** You should think about which screens or fragments users will navigate to frequently, which ones they should be able to return to easily, and how they'll be directed in case of errors. Using tools like Android's Navigation component can assist in visualizing and implementing navigation more effectively.
+
+2. **Storing Images in App's Private Memory:**
+
+**Significance:** The way you store data, especially larger data types like images, has a big impact on the performance, security, and user experience of your app.
+**Considerations:** Storing images in the app's private memory ensures that other apps cannot access them, which is good for security. However, it also means that the images are deleted if the user uninstalls the app. Depending on the size and number of images, using private storage can also fill up the device's internal storage quickly, which can be a concern for users with limited storage.
+
+3.**Choosing MVVM (Model-View-ViewModel):**
+
+**Significance:** The architecture pattern you choose for your app will influence its maintainability, testability, and the ease with which you can scale or modify features in the future.
+**Considerations:** MVVM promotes a separation of concerns, making it easier to understand the code and write tests. It pairs well with Android's LiveData and Data Binding, which can result in more concise and reactive UI code. However, as with any pattern, it's crucial to avoid common pitfalls, such as bloated ViewModels or ignoring the importance of Dependency Injection.
+
+
 ## Features 🌟
 
 1. **Welcome Page**: Introduces users to the app and guides them through the steps to capture an image and initiate object detection.
