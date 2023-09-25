@@ -184,8 +184,6 @@ Contributions to this project are welcome! Here's how you can help:
 
 - **Android Community**: For the plethora of resources, tutorials, and code snippets that helped in building this app.
 
-- All the beta testers and users who provided invaluable feedback to make the app better.
-
 
 ## License
 
@@ -193,5 +191,5 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Developed by Debidutt Prasad.
+Developed by Debidutt Prasad tested on One Plus 6T
 
